@@ -1,0 +1,14 @@
+D:\Dropbox\Programmering\SUT21\Systemtestning\Labbar\Labb3-XUnitAndAcceptance\Labb3_systemtestning\bin\Debug\netcoreapp3.1\Labb3-XUnitAndAcceptance.exe
+D:\Dropbox\Programmering\SUT21\Systemtestning\Labbar\Labb3-XUnitAndAcceptance\Labb3_systemtestning\bin\Debug\netcoreapp3.1\Labb3-XUnitAndAcceptance.deps.json
+D:\Dropbox\Programmering\SUT21\Systemtestning\Labbar\Labb3-XUnitAndAcceptance\Labb3_systemtestning\bin\Debug\netcoreapp3.1\Labb3-XUnitAndAcceptance.runtimeconfig.json
+D:\Dropbox\Programmering\SUT21\Systemtestning\Labbar\Labb3-XUnitAndAcceptance\Labb3_systemtestning\bin\Debug\netcoreapp3.1\Labb3-XUnitAndAcceptance.runtimeconfig.dev.json
+D:\Dropbox\Programmering\SUT21\Systemtestning\Labbar\Labb3-XUnitAndAcceptance\Labb3_systemtestning\bin\Debug\netcoreapp3.1\Labb3-XUnitAndAcceptance.dll
+D:\Dropbox\Programmering\SUT21\Systemtestning\Labbar\Labb3-XUnitAndAcceptance\Labb3_systemtestning\bin\Debug\netcoreapp3.1\Labb3-XUnitAndAcceptance.pdb
+D:\Dropbox\Programmering\SUT21\Systemtestning\Labbar\Labb3-XUnitAndAcceptance\Labb3_systemtestning\obj\Debug\netcoreapp3.1\Labb3_XUnitAndAcceptance.csproj.AssemblyReference.cache
+D:\Dropbox\Programmering\SUT21\Systemtestning\Labbar\Labb3-XUnitAndAcceptance\Labb3_systemtestning\obj\Debug\netcoreapp3.1\Labb3_XUnitAndAcceptance.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dropbox\Programmering\SUT21\Systemtestning\Labbar\Labb3-XUnitAndAcceptance\Labb3_systemtestning\obj\Debug\netcoreapp3.1\Labb3_XUnitAndAcceptance.AssemblyInfoInputs.cache
+D:\Dropbox\Programmering\SUT21\Systemtestning\Labbar\Labb3-XUnitAndAcceptance\Labb3_systemtestning\obj\Debug\netcoreapp3.1\Labb3_XUnitAndAcceptance.AssemblyInfo.cs
+D:\Dropbox\Programmering\SUT21\Systemtestning\Labbar\Labb3-XUnitAndAcceptance\Labb3_systemtestning\obj\Debug\netcoreapp3.1\Labb3_XUnitAndAcceptance.csproj.CoreCompileInputs.cache
+D:\Dropbox\Programmering\SUT21\Systemtestning\Labbar\Labb3-XUnitAndAcceptance\Labb3_systemtestning\obj\Debug\netcoreapp3.1\Labb3-XUnitAndAcceptance.dll
+D:\Dropbox\Programmering\SUT21\Systemtestning\Labbar\Labb3-XUnitAndAcceptance\Labb3_systemtestning\obj\Debug\netcoreapp3.1\Labb3-XUnitAndAcceptance.pdb
+D:\Dropbox\Programmering\SUT21\Systemtestning\Labbar\Labb3-XUnitAndAcceptance\Labb3_systemtestning\obj\Debug\netcoreapp3.1\Labb3_XUnitAndAcceptance.genruntimeconfig.cache

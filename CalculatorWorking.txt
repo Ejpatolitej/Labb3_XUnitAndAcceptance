@@ -1,0 +1,171 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Labb3_systemtestning
+{
+    public class Calculator
+    {
+        public double num1 { get; set; }
+        public double num2 { get; set; }
+        public double result { get; set; }
+        public List<string> calculations { get; set; }
+
+
+        public void userMenu()
+        {
+            Console.Clear();
+            Console.WriteLine("Choose calculation: ");
+            Console.WriteLine("1. Addition");
+            Console.WriteLine("2. Subtraction");
+            Console.WriteLine("3. Division");
+            Console.WriteLine("4. Multiplication");
+            Console.WriteLine("5. Previous calculations");
+            Console.WriteLine("6. Exit");
+
+
+            try
+            {
+                int userChoice = Int32.Parse(Console.ReadLine());
+                switch (userChoice)
+                {
+                    case 1:
+                        addition();
+                        break;
+                    case 2:
+                        subtraction();
+                        break;
+                    case 3:
+                        division();
+                        break;
+                    case 4:
+                        multiplication();
+                        break;
+                    case 5:
+                        printResult();
+                        break;
+                    case 6:
+                        Console.WriteLine("Goodbye!");
+                        Console.ReadKey();
+                        Environment.Exit(0);
+                        break;
+                    default:
+                        Console.WriteLine("Invalid number, try again!");
+                        Console.ReadKey();
+                        userMenu();
+                        break;
+                }
+            }
+            catch (Exception)
+            {
+
+                Console.WriteLine("Invalid choice, try again!");
+                Console.ReadKey();
+                userMenu();
+            }
+        }
+
+        public double firstInput()
+        {
+            try
+            {
+                //Comment out for testing!
+                //num1 = 1;
+                Console.WriteLine("Enter your first number: ");
+                num1 = double.Parse(Console.ReadLine());
+            }
+            catch
+            {
+                Console.WriteLine("Invalid choice, try again!");
+                Console.ReadKey();
+                firstInput();
+            }
+            return num1;
+        }
+
+        public double secondInput()
+        {
+            try
+            {
+                Console.WriteLine("Enter your second number: ");
+                num2 = double.Parse(Console.ReadLine());
+            }
+            catch
+            {
+                Console.WriteLine("Invalid choice, try again!");
+                Console.ReadKey();
+                firstInput();
+            }
+            return num2;
+        }
+
+
+
+        public double addition()
+        {
+            double num1 = firstInput();
+            double num2 = secondInput();
+            double result = num1 + num2;
+            Console.WriteLine("{0} + {1} = {2}", num1, num2, result);
+            Console.ReadKey();
+            string calc = "Calculation: " + num1 + " + " + num2 + " = " + result;
+            calculations.Add(calc);
+            userMenu();
+            return result;
+        }
+
+        public double subtraction()
+        {
+            double num1 = firstInput();
+            double num2 = secondInput();
+            double result = num1 - num2;
+            Console.WriteLine("{0} - {1} = {2}", num1, num2, result);
+            Console.ReadKey();
+            string calc = "Calculation: " + num1 + " - " + num2 + " = " + result;
+            calculations.Add(calc);
+            userMenu();
+            return result;
+        }
+
+        public double division()
+        {
+            double num1 = firstInput();
+            double num2 = secondInput();
+            if (num1 == 0 || num2 == 0)
+            {
+                Console.WriteLine("YOU DIVIDED BY ZERO?! YOU FOOL!!");
+                Console.ReadKey();
+                Environment.Exit(0);
+            }
+            double result = num1 / num2;
+            Console.WriteLine("{0} / {1} = {2}", num1, num2, result);
+            Console.ReadKey();
+            string calc = "Calculation: " + num1 + " / " + num2 + " = " + result;
+            calculations.Add(calc);
+            userMenu();
+            return result;
+        }
+        public double multiplication()
+        {
+            double num1 = firstInput();
+            double num2 = secondInput();
+            double result = num1 - num2;
+            Console.WriteLine("{0} x {1} = {2}", num1, num2, result);
+            Console.ReadKey();
+            string calc = "Calculation: " + num1 + " x " + num2 + " = " + result;
+            calculations.Add(calc);
+            userMenu();
+            return result;
+        }
+
+        public void printResult()
+        {
+            foreach (var calculation in calculations)
+            {
+                Console.WriteLine(calculation);
+            }
+            Console.ReadKey();
+            userMenu();
+        }
+    }
+}
